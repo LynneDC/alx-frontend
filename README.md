@@ -1,67 +1,69 @@
-<h1 class="gap">
-    0x00. Advanced HTML    
-  </h1>
-      <div class="panel panel-default" id="project-description">
-  <div class="panel-body">
-    <p><img src="https://s3.amazonaws.com/alx-intranet.hbtn.io/uploads/medias/2019/12/5d9e347964a9cc0e3e24.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIARDDGGGOUSBVO6H7D%2F20240424%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240424T172931Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=4ba34f355963791b47d38ccad91ccd415db5cd7bb23aa403b50607f418a3badf" alt="" loading='lazy' style="" /></p>
+ALX Front-End
+Welcome to the ALX Front-End Repository! This repository is a treasure trove of resources to help me master advanced front-end development concepts. Whether you're a beginner looking to build a strong foundation or an experienced developer aiming to sharpen your skills, you'll find everything you need right here.
 
-<h1>Welcome!</h1>
+Table of Contents
+Getting Started
+Advanced HTML
+Advanced CSS
+Developer Tools
+Responsive Design
+Contributing
+Getting Started
+To embark on your journey to front-end mastery, start by cloning this repository to your local machine:
 
-<p>Welcome to the Web Stack specialization. 
-The 3 first projects will give you all basics of the Web development: HTML, CSS and Developer tools.</p>
+git clone https://github.com/LynneDc/alx-frontend.git
+Once you have the repository locally, explore the different sections to gain a deeper understanding of advanced front-end concepts.
 
-<p>In this project, you will learn how to use HTML tags to structure a web page. 
-No CSS, no styling - don&rsquo;t worry, the final page will be &ldquo;ugly&rdquo; it&rsquo;s normal, it&rsquo;s not the purpose of this project.</p>
+Advanced HTML
+Semantic HTML
+Semantic HTML is all about using HTML elements to convey the meaning and structure of your web content. By employing tags like <header>, <nav>, <article>, and <footer>, you make your HTML more accessible and SEO-friendly. Semantic HTML provides a clear structure for your documents, improving both readability for developers and understanding for machines.
 
-<p>Important note: <strong>details are important!</strong> lowercase vs uppercase / wrong letter&hellip; be careful!</p>
+HTML5 Forms
+HTML5 introduced numerous enhancements to form elements. Elements such as <input type="email">, <input type="date">, and <input type="number"> are designed to capture specific data types more effectively. This makes user interactions smoother and facilitates better data validation.
 
-<h2>Resources</h2>
+Custom Data Attributes
+Custom data attributes, denoted by the "data-" prefix (e.g., "data-id"), allow you to store extra information within your HTML elements. These attributes are often utilized in JavaScript to associate data with DOM elements, making it easier to manage dynamic content and interactions.
 
-<p><strong>Read or watch</strong>:</p>
+HTML Templates
+HTML templates, enclosed within <template> tags, provide a mechanism for creating reusable chunks of markup. These templates can be cloned and inserted into the document using JavaScript, enhancing code maintainability and reducing duplication.
 
-<ul>
-<li><a href="/rltoken/3ZeSykXeV9rQhzFiW5GHcg" title="HTML 5.2" target="_blank">HTML 5.2</a></li>
-<li><a href="/rltoken/XWdv6hMca_9jks7PN2gsbA" title="HTML: HyperText Markup Language | MDN" target="_blank">HTML: HyperText Markup Language | MDN</a></li>
-<li><a href="/rltoken/H59e408ohxV9x_tYOWSxvg" title="HTML Reference - A free guide to all HTML elements and attributes" target="_blank">HTML Reference - A free guide to all HTML elements and attributes</a></li>
-<li><a href="/rltoken/u6RvQ_45Xpw82Awl82NZcg" title="Can I use... Support tables for HTML5, CSS3, etc" target="_blank">Can I use&hellip; Support tables for HTML5, CSS3, etc</a></li>
-<li><a href="/rltoken/6SV9Z98vlb8iehxHnl9YJg" title="HTML Cheat Sheet - WebsiteSetup" target="_blank">HTML Cheat Sheet - WebsiteSetup</a></li>
-</ul>
+Advanced CSS
+Flexbox
+Flexbox is a powerful layout model that simplifies the creation of flexible, responsive layouts. It enables you to align and distribute elements within a container, making complex layouts more manageable. By mastering Flexbox, you can achieve consistent and adaptable designs.
 
-<h2>Learning Objectives</h2>
+Grid Layout
+CSS Grid Layout is a two-dimensional layout system that allows you to create grid-based designs. It provides fine-grained control over both rows and columns, making it ideal for intricate page layouts and responsive designs.
 
-<p>At the end of this project, you are expected to be able to <a href="/rltoken/F24l2-dtHshauXRVkZicyw" title="explain to anyone" target="_blank">explain to anyone</a>, <strong>without the help of Google</strong>:</p>
+CSS Variables (Custom Properties)
+CSS custom properties, defined using the "--property-name" syntax, enable you to declare reusable values in your CSS. This feature is incredibly valuable for maintaining a consistent design system and simplifying theming.
 
-<ul>
-<li>Which guidelines to follow for HTML</li>
-<li>How to create the skeleton of an HTML5 page</li>
-<li>How to use semantic HTML tags to structure a web page</li>
-<li>Which use cases to use <code>div</code> vs <code>span</code></li>
-<li>The semantic value&rsquo;s of <code>header</code>, <code>main</code>, <code>footer</code>, <code>article</code>, <code>nav</code>, <code>section</code>, <code>aside</code></li>
-<li>How to use headings (and why it&rsquo;s important to follow the hierarchical order)</li>
-<li>How to make lists in HTML</li>
-<li>The differences between medias (SVG, GIF, PNG, JPG)</li>
-<li>How to structure data in a table</li>
-<li>How to integrate a video in a webpage</li>
-<li>How to integrate an audio file in a webpage</li>
-<li>How to embed external content</li>
-<li>How to correctly structure an HTML page</li>
-</ul>
+CSS Transitions and Animations
+CSS transitions and animations bring interactivity and motion to your web pages. You can smoothly animate properties such as size, color, and position, providing a visually engaging user experience.
 
-<h2>Requirements</h2>
+Developer Tools
+Browser Developer Tools
+Browser developer tools are essential for debugging and inspecting web pages. They include features like:
 
-<ul>
-<li>A <code>README.md</code> file at the root of the folder of the project is mandatory</li>
-<li>Your code should be W3C compliant and validate with <a href="/rltoken/Q-XyLkED_pMjSGEuZKb7Fw" title="W3C-Validator" target="_blank">W3C-Validator</a></li>
-<li><code>Techium</code> will be the name of the company we will use across our webpages.</li>
-</ul>
+Elements Panel: Inspect and manipulate HTML and CSS.
+Console: Debug JavaScript code and view error messages.
+Network Panel: Monitor network requests and optimize load times.
+Performance Profiling: Identify bottlenecks and optimize web performance.
+Mobile Emulation: Test how your website appears on various devices.
+Source Maps
+Source maps are files that map minified or transpiled code back to its original source code. This aids in debugging by allowing you to work with your original code even when using optimized or compiled assets.
 
-<h2>Sitemap of the project</h2>
+Responsive Design
+Media Queries
+Media queries are CSS rules that apply styles based on the characteristics of the user's device, such as screen width, height, or device orientation. They are the cornerstone of responsive design, enabling you to create layouts that adapt to different screen sizes.
 
-<p><img src="https://s3.amazonaws.com/alx-intranet.hbtn.io/uploads/medias/2020/4/4dec2ba9d84a0a55355b1c1e2de4c57854a2d35a.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIARDDGGGOUSBVO6H7D%2F20240424%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240424T172931Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=ab64849ebff24c4d260ff665d8a4c5e5f3c5f47b2b9ade8c488752e4354d0792" alt="" loading='lazy' style="" /></p>
+Viewport Meta Tag
+The viewport meta tag (<meta name="viewport">) is crucial for responsive design. It controls the initial scale and behavior of a web page on mobile devices, ensuring proper rendering and user experience.
 
-<h2>Wireframe of <code>Techium</code> project</h2>
+Fluid Layouts
+A fluid layout adapts to the available screen width, creating a consistent and visually pleasing experience on various devices. Achieve this by using percentage-based widths and responsive CSS properties.
 
-<p><img src="https://s3.amazonaws.com/alx-intranet.hbtn.io/uploads/medias/2020/4/3e4f9e2b3cb73d1768229e086f5da35337be5c6c.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIARDDGGGOUSBVO6H7D%2F20240424%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240424T172931Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=dcdab1931d9682273d05a1e4d7b1e427f927559fc7e46355d4c29f0995cb142d" alt="" loading='lazy' style="" /></p>
-  </div>
-</div>       
-    
+Mobile-First Design
+Mobile-first design is an approach that prioritizes designing for mobile devices before scaling up to larger screens. This ensures that your website is optimized for small screens and progressively enhances for larger ones.
+
+Contributing
+I will appreciate contributions from the community! If you have valuable insights, examples, or improvements to share, please open a pull request. Check out our Contribution Guidelines for more information.
